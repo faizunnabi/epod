@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-#$config['base_url'] = 'http://local.alrumaithy.ae/epod/';
-$config['base_url'] = 'http://104.131.94.246/epod/';
+#$config['base_url'] = '';
+$config['base_url'] = '';
 
 /*
 |--------------------------------------------------------------------------
@@ -325,7 +325,7 @@ $config['cache_query_string'] = FALSE;
 | https://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = '$2a$06$vVoVcKqOEInqFq5t8G9pOuaAhrYyMQ5ECIg5F3f/y7wxbHxIblZ0q';
+$config['encryption_key'] = '';
 
 /*
 |--------------------------------------------------------------------------
@@ -469,7 +469,7 @@ $config['csrf_exclude_uris'] = array(
                                         'api/support_ticket',
                                         'api/fetch_ticket',
                                         'api/fetch_comment',
-										'activitylogs/update_notification'
+					'activitylogs/update_notification'
                                     );
 
 /*
